@@ -1,0 +1,96 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    background: #ffffff;
+}
+
+.profile-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-picture img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    color: #000000;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.profile-short-description {
+    color: #666666;
+    font-size: 1.2rem;
+}
+
+/* Estilos de los enlaces */
+.profile-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-links {
+    list-style: none;
+    padding: 0;
+}
+
+.link-group-body {
+    display: inline-block;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    background: #f4f4f4;
+    padding: 5px 40px; /* Aumenta el padding para hacer los botones más largos */
+    margin: 15px 0; /* Añadir más espacio entre botones */
+    border-radius: 80px; /* Hace los botones más redondeados */
+    display: inline-block;
+    width: 300px; /* Ajusta el ancho de los botones */
+    text-align: center;
+    transition: background 0.3s ease; /* Efecto de transición en el hover */
+}
+
+.link:hover {
+    background: #e0e0e0; /* Efecto hover para cambiar de color */
+}
+
+.link a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+.link-icon {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.link-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Pie de página */
+.profile-footer {
+    text-align: center;
+    padding: 20px;
+    background: #333333;
+    color: #ffffff;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}

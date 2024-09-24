@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - GIBRA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+			height: 650px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .social-buttons {
+            margin-top: 20px;
+        }
+
+        .social-buttons a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background-color: #1ecbff;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+			margin: 15px 0;
+        }
+
+        .social-buttons a:hover {
+            background-color: #1c86ee;
+        }
+
+        .social-buttons a img {
+            vertical-align: middle;
+            margin-right: 10px;
+            width: 20px;
+            height: auto;
+        }
+
+		.profile-footer {
+    		text-align: center;
+    		padding: 20px;
+    		background: #333333;
+    		color: #ffffff;
+		}
+
+		.footer-logo img {
+    		width: 200px ;
+		}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="" alt="Foto de perfil" class="profile-pic">
+        <h2>Juan Sebastian Risso</h2>
+        <p>Emprendedor, apasionado por los negocios y las finanzas. CEO de Gibra Company y de Madrigal Bags.</p>
+
+        <div class="social-buttons">
+            <a href="#"><img src="images/instagram-brands-solid.png" alt="Instagram">Instagram</a>
+            <a href="#"><img src="whatsapp.png" alt="WhatsApp">WhatsApp</a>
+            <a href="#"><img src="madrigal.png" alt="Madrigal Bags">Madrigal Bags</a>
+            <a href="#"><img src="linkedin.png" alt="LinkedIn">LinkedIn</a>
+            <a href="#"><img src="twitter.png" alt="Twitter">Twitter</a>
+        </div>
+
+		<footer class="profile-footer">
+            <div id="footer-logo" class="footer-logo">
+                <a href="/"><img src="images/logo.png" alt="Logo del pie de página" /></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
